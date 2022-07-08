@@ -9,8 +9,8 @@ option( ENABLE_WERROR "Treats warnings as errors by default" OFF )
 option( DISABLE_ALL_WERROR "Disable treating warnings as errors for all targets" OFF )
 
 option( CXX_STANDARD_14 "Enable C++14 standart" OFF )
-option( CXX_STANDARD_17 "Enable C++17 standart" OFF )
-option( CXX_STANDARD_20 "Enable C++20 standart" ON )
+option( CXX_STANDARD_17 "Enable C++17 standart" ON )
+option( CXX_STANDARD_20 "Enable C++20 standart" OFF )
 
 option( ADDRESS_SANITIZER OFF )
 option( UNDEFINED_SANITIZER OFF )

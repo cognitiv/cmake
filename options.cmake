@@ -5,7 +5,9 @@ option( CMAKE_USE_CCACHE "Cmake use ccache" OFF )
 
 option( ENABLE_DIAGNOSTIC_COLORS "Enable diagnostic's colors" ON )
 
-option( ENABLE_WERROR "Treats warnings as errors by default" OFF )
+option( ENABLE_BASIC_WARNINGS ON )
+option( ENABLE_EXTENDED_WARNINGS ON )
+option( ENABLE_WERROR "Treats warnings as errors" ON )
 option( DISABLE_ALL_WERROR "Disable treating warnings as errors for all targets" OFF )
 
 option( CXX_STANDARD_14 "Enable C++14 standart" OFF )
